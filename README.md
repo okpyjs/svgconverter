@@ -7,13 +7,13 @@ A module for converting SVG to PNG format from URL, content, file.
 To install the SVG to PNG Converter module, use the following command:
 
 ```shell
-npm install svgconverter
+npm install svgctr
 ```
 
 ## Usage
 
 ```javascript
-const converter = require('svgconverter');
+const converter = require('svgctr');
 
 const svgUrl = 'https://www.w3schools.com/signup/lynxlogo.svg';
 const svgContent = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M38,38c0-12,24-15,23-2c0,9-16,13-16,23v7h11v-4c0-9,17-12,17-27c-2-22-45-22-45,3zM45,70h11v11h-11z" fill="#371"/><circle cx="50" cy="50" r="45" fill="none" stroke="#371" stroke-width="10"/></svg>';
