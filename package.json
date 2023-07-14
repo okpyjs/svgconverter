@@ -1,0 +1,31 @@
+{
+  "name": "svgconverter",
+  "version": "0.0.1",
+  "description": "A module for converting SVG to PNG format from URL, content, file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okpyjs/svgconverter.git"
+  },
+  "keywords": [
+    "svg",
+    "png",
+    "converter",
+    "image"
+  ],
+  "author": "Oleksandr Koniaiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okpyjs/svgconverter/issues"
+  },
+  "homepage": "https://github.com/okpyjs/svgconverter#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "svg2img": "^1.0.0-beta.2",
+    "svgson": "^5.3.0"
+  }
+}
