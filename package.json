@@ -1,5 +1,5 @@
 {
-  "name": "svgconverter",
+  "name": "svgctr",
   "version": "0.0.1",
   "description": "A module for converting SVG to PNG format from URL, content, file.",
   "main": "index.js",
